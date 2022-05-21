@@ -13,6 +13,7 @@ export const Avatar = styled.div`
 export const AvatarImage = styled.div`
     width: 14em;
     height: 14em;
-    background: ${props => props.theme.colorF4} url(${props => props.src}) round;
+    background: ${props => props.theme.colorF4} url(${props => props.src}) no-repeat;
+    background-size: cover;
     border-radius: 10em;
 `;

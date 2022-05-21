@@ -5,7 +5,7 @@ import AvatarPerfil from '../../organisms/avatar-perfil/avatar-perfil.organism'
 const BrandHeader = () => {
     return (
         <Header>
-            <AvatarPerfil src={'https://avatars2.githubusercontent.com/u/30897010?s=460&v=4'}></AvatarPerfil>
+            <AvatarPerfil src={'https://s.gravatar.com/avatar/ed6459dfaa7fd5177b9851d104925442?s=380'}></AvatarPerfil>
         </Header>
     )
 }
