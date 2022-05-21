@@ -2,15 +2,15 @@ import * as React from "react"
 import { MainContainer } from "../styles/main.styled"
 import { ThemeProvider } from "styled-components"
 import { theme } from "../styles/theme.styled"
+import { Main } from "./main/main"
+import "../styles/global.scss"
 // markup
 const IndexPage = () => {
   return (
     <ThemeProvider theme={theme}>
       <MainContainer>
-        <main>
-          <title>Home Page</title>
-          <h1>Hello World</h1>
-        </main>
+        <Main>
+        </Main>
       </MainContainer>
     </ThemeProvider>
   )
