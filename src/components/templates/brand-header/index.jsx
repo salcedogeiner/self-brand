@@ -23,7 +23,7 @@ const BrandHeader = () => {
             </HeaderAbstract>
             <SocialZone>
                 <SocialLinks links={[{src:'local', icon:'github'}, {src:'otro', icon:'instagram'},{src:'dwq', icon:'google'},{src:'',icon:'twitter'},{src:'', icon:'facebook'}, {src:'', icon:'youtube'}]}></SocialLinks>
-                <PdfViewer></PdfViewer>
+                <PdfViewer src={'https://www.um.es/docencia/barzana/DAWEB/Lenguaje-de-programacion-JavaScript-1.pdf'}></PdfViewer>
             </SocialZone>
             
         </Header>
