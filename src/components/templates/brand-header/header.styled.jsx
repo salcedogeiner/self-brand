@@ -2,6 +2,7 @@ import styled from 'styled-components'
 
 export const Header = styled.div`
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
     width: 100vw;
@@ -27,5 +28,11 @@ export const HeaderAbstract = styled.div`
         font-size: 1.5em;
         text-align: justify;
     }
-    
+`;
+
+export const SocialZone = styled.div`
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 `;
