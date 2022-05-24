@@ -7,8 +7,8 @@ export const Header = styled.div`
     justify-content: space-between;
     width: 100vw;
     min-height: 25em;
-    padding: 0;
-    margin: 0;
+    padding: 0px;
+    margin: 0px;
     background-color: ${props => props.theme.colorF2};
 `;
 
@@ -22,7 +22,7 @@ export const HeaderAbstract = styled.div`
     h1 {
         font-size: 3em;
         font-weight: 100;
-        margin: 0;
+        margin: 0px;
     }
     p {
         font-size: 1.5em;
