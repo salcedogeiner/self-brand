@@ -8,7 +8,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 const IconLink = ({ icon, link, size }) => {
     
     return (
-        <a href={link}>
+        <a href={link} target="_blank">
             <FontAwesomeIcon icon={icon} size={size}></FontAwesomeIcon>
         </a>
     )
