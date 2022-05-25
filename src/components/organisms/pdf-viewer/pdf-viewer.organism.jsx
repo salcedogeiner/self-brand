@@ -20,7 +20,7 @@ const PdfViewer = ({src}) => {
             { isOpen ?
             <PdfContainer>
                 <VerticalExpander onClick={open}></VerticalExpander>
-                <iframe src={src} width="100%" height="100%"></iframe>
+                <iframe src={src} width="100%" height="100%" title="curriculum"></iframe>
             </PdfContainer> : null}
         </Viewer>
         

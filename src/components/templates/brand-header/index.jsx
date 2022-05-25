@@ -3,7 +3,7 @@ import { Header, HeaderAbstract, SocialZone } from './header.styled';
 import AvatarPerfil from '../../organisms/avatar-perfil/avatar-perfil.organism';
 import SocialLinks from '../../molecules/social-links/social-links.molecule';
 import PdfViewer from '../../organisms/pdf-viewer/pdf-viewer.organism';
-import { useMain } from '../../../pages/main/context';
+import { useMain } from '../../../context/main-context';
 
 const BrandHeader = () => {
 

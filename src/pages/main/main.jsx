@@ -1,13 +1,17 @@
 import React from 'react';
 import BrandHeader from '../../components/templates/brand-header';
 import JSONData from "../../data-source/self-data.json"
-import { MainProvider } from './context';
+import { MainProvider } from '../../context/main-context';
 
-export const Main = () => {
+const MainPage = () => {
 
     return (
-        <MainProvider m={JSONData}>
-            <BrandHeader></BrandHeader>
-        </MainProvider>
+        <main>
+            <MainProvider m={JSONData}>
+                <BrandHeader></BrandHeader>
+            </MainProvider>
+        </main>
     );
 }
+
+export default MainPage;

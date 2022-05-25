@@ -1,18 +1,6 @@
 import styled from 'styled-components'
 
-export const Header = styled.div`
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-    width: 100vw;
-    min-height: 25em;
-    padding: 0px;
-    margin: 0px;
-    background-color: ${props => props.theme.colorF2};
-`;
-
-export const HeaderAbstract = styled.div`
+const HeaderAbstract = styled.div`
     display: flex;
     color: ${props => props.theme.colorF1};
     flex-direction: column;
@@ -30,9 +18,23 @@ export const HeaderAbstract = styled.div`
     }
 `;
 
-export const SocialZone = styled.div`
+const Header = styled.div`
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw;
+    min-height: 25em;
+    padding: 0px;
+    margin: 0px;
+    background-color: ${props => props.theme.colorF2};
+`;
+
+const SocialZone = styled.div`
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
 `;
+
+export { Header, HeaderAbstract, SocialZone };
