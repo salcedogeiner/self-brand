@@ -6,7 +6,7 @@ const HeaderAbstract = styled.div`
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    max-width: 50em;
+    max-width: 40em;
     h1 {
         font-size: 3em;
         font-weight: 100;
@@ -15,6 +15,10 @@ const HeaderAbstract = styled.div`
     p {
         font-size: 1.5em;
         text-align: justify;
+        padding: 0 1em;
+    }
+    @media (max-width:  ${props => props.theme.device?.tablet}) {
+        max-width: 30em;
     }
 `;
 
@@ -28,6 +32,12 @@ const Header = styled.div`
     padding: 0px;
     margin: 0px;
     background-color: ${props => props.theme.colorF2};
+    @media (max-width:  ${props => props.theme.device?.tablet}) {
+        justify-content: space-around;
+    }
+    @media (max-width:  ${props => props.theme.device?.laptop}) {
+        font-size: 10px;
+    }
 `;
 
 const SocialZone = styled.div`
@@ -35,6 +45,9 @@ const SocialZone = styled.div`
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    @media (max-width:  ${props => props.theme.device?.laptop}) {
+        font-size: 10px;
+    }
 `;
 
 export { Header, HeaderAbstract, SocialZone };

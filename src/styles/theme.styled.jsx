@@ -1,6 +1,5 @@
-
 export const theme = {
-    backgorundColor: '#FFFFFF',
+    fontSize: '12px' ,
     
     /* Color Theme Backgrounds */
     colorF1: "#EEEEEE",
@@ -8,5 +7,15 @@ export const theme = {
     colorF3: "#3F4665",
     colorF4:"#FFFFFF",
     colorF5: "#1E1E1E",
+
+    device : {
+      mobileS: '320px',
+      mobileM: '375px',
+      mobileL: '425px',
+      tablet: '768px',
+      laptop: '1024px',
+      laptopL: '1440px',
+      desktop: '2560px'
+    }
 
   };

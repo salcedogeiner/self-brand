@@ -5,9 +5,13 @@ const Avatar = styled.div`
     align-items: center;
     justify-content: center;
     background-color: ${props => props.theme.colorF3};
-    height: 19em;
-    width: 22em;
+    height: calc(15em + 4vw);
+    width: calc(15em + 4vw);
     border-radius: 0 10em 10em 0;
+    @media (max-width: ${props => props.theme.device?.tablet}) {
+        width: 100vw;
+        border-radius: 0;
+    }
 `;
 
 const AvatarImage = styled.div`
