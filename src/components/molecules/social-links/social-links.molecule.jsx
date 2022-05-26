@@ -16,15 +16,15 @@ const SocialLinks = ({ links }) => {
     }
 
     return (
-        <ul>
+        <List>
             {links.map((link, index) =>  ( link.icon ?
-                    <List key={index}>
+                    <li key={index}>
                         <IconLink link={link.src} icon={icons[link.icon]}></IconLink>
-                    </List>
+                    </li>
                     : null
                 )
             )}
-        </ul>
+        </List>
     );
 }
 

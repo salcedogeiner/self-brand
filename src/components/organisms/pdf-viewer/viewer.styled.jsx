@@ -4,7 +4,7 @@ export const Viewer = styled.div`
     cursor: pointer;
     display: flex;
     font-size: 10em;
-    padding: 3rem;
+    padding: 2rem;
     color: ${props => props.theme.colorF1};
     flex-direction: column;
     span {

@@ -6,7 +6,7 @@ const HeaderAbstract = styled.div`
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    max-width: 40em;
+    flex: 1;
     h1 {
         font-size: 3em;
         font-weight: 100;
@@ -15,10 +15,10 @@ const HeaderAbstract = styled.div`
     p {
         font-size: 1.5em;
         text-align: justify;
-        padding: 0 1em;
+        padding: 0 2em;
     }
-    @media (max-width:  ${props => props.theme.device?.tablet}) {
-        max-width: 30em;
+    @media (max-width:  ${props => props.theme.device?.mobileL}) {
+        min-width: 100vw;
     }
 `;
 
