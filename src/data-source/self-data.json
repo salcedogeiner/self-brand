@@ -1,14 +1,22 @@
 {
-    "header_data":{
+    "header_data": {
         "name": "Alexis Salcedo",
         "photo": "https://s.gravatar.com/avatar/ed6459dfaa7fd5177b9851d104925442?s=380",
-        "abstract": "Soy Arquitecto de Software, Magister en Ciencias de la Información y las Comunicaciones con enfasis en Ingenieria de Software. Tengo amplios conocimientos en desarrollo y diseño de software, me han reconocido como una persona con alta creatividad y capacidad de trabajo en equipo. He liderado equipos grandes y pequeños. Me distingo por el cumplimiento, la toma de deciones y la capacidad de proponer e implementar nuevas soluciones como caracteristicas y mejoras al diseño de software, en la implementación de nuevos sistemas y la mejora constante de procesos organizacionales. Soy capaz de transformar ideas en soluciones soportadas en la tecnologia para mejorar la vida y experiencias de las personas",
+        "abstract": "Soy Arquitecto de Software, Magíster en Ciencias de la Información y las Comunicaciones con énfasis en Ingeniería de Software. Tengo amplios conocimientos en desarrollo y diseño de software, me han reconocido como una persona con alta creatividad y capacidad de trabajo en equipo. He liderado equipos grandes y pequeños. Me distingo por el cumplimiento, la toma de decisiones y la capacidad de proponer e implementar nuevas soluciones como características y mejoras al diseño de software, en la implementación de nuevos sistemas y la mejora constante de procesos organizacionales. Soy capaz de transformar ideas en soluciones soportadas en la tecnología para mejorar la vida y experiencias de las personas.",
         "social_links": [
-            {"icon": "linkedin", "src": "https://www.linkedin.com/in/alexis-salcedo-3602a8125"},
-            {"icon": "github", "src": "https://github.com/salcedogeiner"},
-            {"icon": "google", "src": "https://plus.google.com/u/0/105529098282409828897"}
+            {
+                "icon": "linkedin",
+                "src": "https://www.linkedin.com/in/alexis-salcedo-3602a8125"
+            },
+            {
+                "icon": "github",
+                "src": "https://github.com/salcedogeiner"
+            },
+            {
+                "icon": "google",
+                "src": "https://plus.google.com/u/0/105529098282409828897"
+            }
         ],
-        "curriculum_file": "https://www.um.es/docencia/barzana/DAWEB/Lenguaje-de-programacion-JavaScript-1.pdf"
+        "curriculum_file": "https://self-brand.s3.amazonaws.com/pdf-files/0d8eafd51ad85c528acbe123c4bead70.pdf"
     }
-    
 }

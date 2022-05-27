@@ -32,6 +32,7 @@ const Header = styled.div`
     padding: 0px;
     margin: 0px;
     background-color: ${props => props.theme.colorF2};
+    box-shadow: 1px 0px 7px 5px rgba(0,0,0,0.48);
     @media (max-width:  ${props => props.theme.device?.tablet}) {
         justify-content: space-around;
     }
