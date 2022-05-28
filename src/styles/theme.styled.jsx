@@ -7,6 +7,7 @@ export const theme = {
     colorF3: "#3F4665",
     colorF4:"#FFFFFF",
     colorF5: "#1E1E1E",
+    colorF6: "#32323E",
 
     device : {
       mobileS: '320px',

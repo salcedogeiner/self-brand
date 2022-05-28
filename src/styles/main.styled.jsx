@@ -9,6 +9,6 @@ export const MainContainer = styled.div`
     height: 100%;
     padding: 0;
     margin: 0;
-    background-color: ${props => props.theme.backgorundColor};
+    background-color: ${props => props.theme.colorF6};
     font-size: ${props => props.theme.fontSize};
 `;
