@@ -1,6 +1,7 @@
 import React from 'react';
 import IconLink from '../../atoms/icon-link.atom';
-import {faGithub, faFacebook, faLinkedin, faYoutube, faInstagram, faTwitter, faReddit, faGoogle} from '@fortawesome/free-brands-svg-icons'
+import {faGithub, faFacebook, faLinkedin, faYoutube, faInstagram, faTwitter, faReddit, faGoogle, faMailchimp } from '@fortawesome/free-brands-svg-icons'
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import {List} from './list.styled';
 
 const SocialLinks = ({ links }) => {
@@ -12,7 +13,8 @@ const SocialLinks = ({ links }) => {
         instagram: faInstagram,
         twitter: faTwitter,
         reddit: faReddit,
-        google: faGoogle
+        google: faGoogle,
+        mail: faEnvelope,
     }
 
     return (
